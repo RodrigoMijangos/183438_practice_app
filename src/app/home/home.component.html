@@ -1,0 +1,15 @@
+<div id="tabla_1">
+
+    <h1>matricula</h1><input type="text" id="matricula" name="matricula" [(value)]="alumno.matricula"> <br>
+    <h1>nombre</h1><input type="text" id="nombre" name="nombre" value="{{alumno.nombre}}"><br>
+    <h1>apellidos</h1><input type="text" id="apellidos" name="apellidos" value="ashagshgas"><br>
+    <h1>curp</h1><input type="text" id="curp" name="curp"><br>
+    <h1>rfc</h1><input type="text" id="rfc" name="rfc"><br>
+    <h1>clave_elector</h1><input type="text" id="clave_elector" name="clave_elector"><br>
+    <h1>carrera</h1><input type="text" id="carrera" name="carrera"><br>
+
+    <input type="button" value="VER" (click)="mostrar()">
+
+    <h1>{{alumno.frase}}</h1>
+</div>
+
